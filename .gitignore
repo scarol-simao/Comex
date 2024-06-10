@@ -1,0 +1,8 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Comex Oficial/Comex Oficial/bin/Debug/net8.0
+/Comex Oficial/.vs/Comex Oficial
+/Comex Oficial/Comex Oficial/obj
