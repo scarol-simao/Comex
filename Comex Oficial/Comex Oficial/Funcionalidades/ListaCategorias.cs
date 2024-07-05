@@ -1,8 +1,6 @@
 ﻿using Comex.Modelos;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Comex.Funcionalidades
@@ -16,7 +14,7 @@ namespace Comex.Funcionalidades
             BancoDeCategorias = bancoDeCategorias;
         }
 
-        public override void Executa(Dictionary<int, Funcionalidade> opcoes)
+        public override Task Executa(Dictionary<int, Funcionalidade> opcoes)
         {
             base.Executa(opcoes);
             ExibeTitulo("Lista de Categorias");
@@ -30,7 +28,10 @@ namespace Comex.Funcionalidades
             }
             else
             {
-                Console.WriteLine("Nenhum categoria cadastrada.");
+                Console.WriteLine("Nenhuma categoria cadastrada.");
             }
-   }     }   
+
+            return Task.CompletedTask;
+        }
+    }
 }

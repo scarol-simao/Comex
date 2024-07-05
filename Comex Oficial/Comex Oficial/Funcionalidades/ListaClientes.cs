@@ -1,6 +1,7 @@
 ﻿using Comex.Modelos;
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Comex.Funcionalidades
 {
@@ -13,7 +14,7 @@ namespace Comex.Funcionalidades
             BancoDeClientes = bancoDeClientes;
         }
 
-        public override void Executa(Dictionary<int, Funcionalidade> opcoes)
+        public override Task Executa(Dictionary<int, Funcionalidade> opcoes)
         {
             base.Executa(opcoes);
             ExibeTitulo("Lista de Clientes");
@@ -29,6 +30,8 @@ namespace Comex.Funcionalidades
             {
                 Console.WriteLine("Nenhum cliente cadastrado.");
             }
+
+            return Task.CompletedTask;
         }
     }
 }

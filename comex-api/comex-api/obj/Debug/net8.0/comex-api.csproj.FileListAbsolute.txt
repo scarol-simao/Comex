@@ -1,0 +1,15 @@
+C:\Users\caroline.simao\Documents\Comex oficial\comex-api\comex-api\bin\Debug\net8.0\comex-api.exe
+C:\Users\caroline.simao\Documents\Comex oficial\comex-api\comex-api\bin\Debug\net8.0\comex-api.deps.json
+C:\Users\caroline.simao\Documents\Comex oficial\comex-api\comex-api\bin\Debug\net8.0\comex-api.runtimeconfig.json
+C:\Users\caroline.simao\Documents\Comex oficial\comex-api\comex-api\bin\Debug\net8.0\comex-api.dll
+C:\Users\caroline.simao\Documents\Comex oficial\comex-api\comex-api\bin\Debug\net8.0\comex-api.pdb
+C:\Users\caroline.simao\Documents\Comex oficial\comex-api\comex-api\obj\Debug\net8.0\comex-api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caroline.simao\Documents\Comex oficial\comex-api\comex-api\obj\Debug\net8.0\comex-api.AssemblyInfoInputs.cache
+C:\Users\caroline.simao\Documents\Comex oficial\comex-api\comex-api\obj\Debug\net8.0\comex-api.AssemblyInfo.cs
+C:\Users\caroline.simao\Documents\Comex oficial\comex-api\comex-api\obj\Debug\net8.0\comex-api.csproj.CoreCompileInputs.cache
+C:\Users\caroline.simao\Documents\Comex oficial\comex-api\comex-api\obj\Debug\net8.0\comex-api.sourcelink.json
+C:\Users\caroline.simao\Documents\Comex oficial\comex-api\comex-api\obj\Debug\net8.0\comex-api.dll
+C:\Users\caroline.simao\Documents\Comex oficial\comex-api\comex-api\obj\Debug\net8.0\refint\comex-api.dll
+C:\Users\caroline.simao\Documents\Comex oficial\comex-api\comex-api\obj\Debug\net8.0\comex-api.pdb
+C:\Users\caroline.simao\Documents\Comex oficial\comex-api\comex-api\obj\Debug\net8.0\comex-api.genruntimeconfig.cache
+C:\Users\caroline.simao\Documents\Comex oficial\comex-api\comex-api\obj\Debug\net8.0\ref\comex-api.dll
