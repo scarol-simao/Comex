@@ -1,8 +1,6 @@
 ﻿using Comex.Modelos;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Comex.Funcionalidades
@@ -10,11 +8,13 @@ namespace Comex.Funcionalidades
     internal class CadastraCategoria : Funcionalidade
     {
         private List<Categoria> BancoDeCategorias;
+
         public CadastraCategoria(List<Categoria> bancoDeCategorias)
         {
             BancoDeCategorias = bancoDeCategorias;
         }
-        public override void Executa(Dictionary<int, Funcionalidade> opcoes)
+
+        public override Task Executa(Dictionary<int, Funcionalidade> opcoes)
         {
             base.Executa(opcoes);
             ExibeTitulo("Cadastra Categoria");
@@ -23,6 +23,8 @@ namespace Comex.Funcionalidades
             Categoria novaCategoria = new Categoria(descricao);
             BancoDeCategorias.Add(novaCategoria);
             Console.WriteLine($"Categoria '{descricao}' cadastrada com sucesso!");
+
+            return Task.CompletedTask;
         }
     }
 }

@@ -1,23 +1,26 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Comex.Funcionalidades
 {
-     internal class Funcionalidade
+    internal class Funcionalidade
     {
-        public string Titulo { get;}
-        public  virtual void ExibeTitulo(string Titulo)
+        public string Titulo { get; }
+
+        public virtual void ExibeTitulo(string titulo)
         {
-            int quantiadeDeletra = Titulo.Length;
-            string asteriscos = string.Empty.PadLeft(quantiadeDeletra, '*');
+            int quantidadeDeLetra = titulo.Length;
+            string asteriscos = new string('*', quantidadeDeLetra);
             Console.WriteLine(asteriscos);
-            Console.WriteLine(Titulo);
+            Console.WriteLine(titulo);
             Console.WriteLine(asteriscos + "\n");
         }
 
-        public virtual void Executa(Dictionary<int, Funcionalidade> opcoes)
+        public virtual Task Executa(Dictionary<int, Funcionalidade> opcoes)
         {
             Console.Clear();
-        }       
+            return Task.CompletedTask;
+        }
     }
 }
